@@ -10,3 +10,9 @@ exports.help = {
     name: "ping",
     aliases: ['pong']
 }
+
+exports.requirements = {
+    botOwner: false,
+    botPerms: [],
+    userPerms: ['BAN_MEMBERS']
+}

@@ -14,5 +14,8 @@ const load = async () => {
     await loadEvents.run(bot);
 }
 
+bot.color = require("./Storage/color.json");
+bot.functions = require("./functions/functions.js");
+
 load();
 bot.login(config.token);
