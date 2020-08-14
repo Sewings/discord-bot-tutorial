@@ -14,5 +14,5 @@ exports.help = {
 exports.requirements = {
     botOwner: false,
     botPerms: [],
-    userPerms: ['BAN_MEMBERS']
+    userPerms: []
 }
